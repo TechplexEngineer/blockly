@@ -23,6 +23,7 @@
  * @author fraser@google.com (Neil Fraser)
  */
 'use strict';
+console.log("eval?");
 
 goog.provide('Blockly.Blocks.colour');
 

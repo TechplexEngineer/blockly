@@ -1,0 +1,23 @@
+{
+  "name": "blockly",
+  "version": "",
+  "description": "Google's Blockly is a web-based, visual programming editor.  Users can drag blocks together to build a programs.  All code is free and open source.",
+  "main": "app.headless.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.headless.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/google/blockly.git"
+  },
+  "author": "Neil Fraser",
+  "license": "Apache License 2.0",
+  "bugs": {
+    "url": "https://github.com/google/blockly/issues"
+  },
+  "homepage": "https://github.com/google/blockly",
+  "dependencies": {
+    "xmldom": "^0.1.19"
+  }
+}
